@@ -1,26 +1,32 @@
-# Jogo Chaves - Acerte o Personagem
+# Piano Virtual
 
-![Print do Jogo](print.png)
+Este projeto consiste em um piano musical virtual criado utilizando HTML, CSS e JavaScript.
 
-Bem-vindo ao **Jogo Detona Chaves**, um jogo simples onde o objetivo é acertar o personagem Chaves clicando com o mouse. Este jogo foi desenvolvido com HTML, CSS e JavaScript (fins educacionais).
+![Screenshot do Projeto](print.png)
 
-## Instruções
+## Funcionalidades
 
-1. Abra o arquivo `index.html` no seu navegador.
-2. Clique no quadrado que contém a imagem do personagem Chaves quando ele aparecer.
-3. Cada acerto adiciona pontos ao seu resultado.
-4. O jogo tem um limite de tempo. Você tem que acertar o máximo de vezes antes que o tempo acabe.
+- **Teclas Musicais**: Cada tecla do teclado representa uma nota musical.
+- **Reprodução por Clique**: Você pode clicar em cada tecla para reproduzir a nota correspondente.
+- **Atalhos de Teclado**: As notas também podem ser reproduzidas usando os atalhos do teclado.
+- **Controle de Volume**: Um controle deslizante permite ajustar o volume da reprodução.
+- **Mostrar/Ocultar Teclas**: Uma opção para mostrar ou ocultar as teclas do teclado.
 
 ## Estrutura do Projeto
 
-- **HTML (`index.html`):** Contém a estrutura básica da página.
-- **CSS (`style.css`):** Define o estilo e a aparência do jogo.
-- **JavaScript (`script.js`):** Contém a lógica do jogo.
+- **index.html**: Página principal do projeto.
+- **style.css**: Estilos para a apresentação visual.
+- **script.js**: Lógica do projeto implementada em JavaScript.
+- **src/tunes**: Pasta contendo os arquivos dos sons das teclas.
 
-## Desenvolvedor
+## Pré-requisitos
 
-Este projeto foi desenvolvido por Iago Vinicius Russi Novaes.
+- Um navegador web moderno.
 
-**Nota:** As imagens e sons usados neste projeto são para fins educacionais.
+## Como Contribuir
 
-Divirta-se jogando! 😄
+Se você quiser contribuir para melhorar este jogo, sinta-se à vontade para:
+
+- Reportar problemas ou bugs.
+- Propor novos recursos.
+- Enviar solicitações de pull requests.
